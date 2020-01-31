@@ -1,4 +1,4 @@
-# Peer to Peer chat-post-search protocol
+## Peer to Peer chat-post-search protocol
 
 First you need to open ports on your system to allow incoming/outgoing TCP connections.
 You need python3 installed on your system. Otherwise you must modify code syntax to python 2.
