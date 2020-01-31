@@ -1,11 +1,14 @@
-## Peer to Peer chat-post-search protocol
+## Python P2P Chat-Post-Search Protocol
 
-### Stablish a connection
+### Run the code
 
 First you need to open ports on your system to allow incoming/outgoing TCP connections.
 You need python3 installed on your system. Otherwise you must modify code syntax to python 2.
-Notice that you need to change default python version on your linux system using python peer-node.py command or use
-python3 peer-node.py.
+Notice that you need to change default python version on your linux system using `python peer-node.py` command or use
+`python3 peer-node.py` instead.
+
+### Stablish a connection
+
 Server peer or generally each peer has a process(thread) running on port 50007, this process assigns a new port to 
 any client peer requesting for connection.
 Client peer as descirbed will connect to the port recieved from the port-server thread on server peer and the server
