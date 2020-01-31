@@ -1,3 +1,5 @@
+# Peer to Peer chat/post/search protocol
+
 First you need to open ports on your system to allow incoming/outgoing TCP connections.
 You need python3 installed on your system. Otherwise you must modify code syntax to python 2.
 Notice that you need to change default python version on your linux system using python peer-node.py command or use
